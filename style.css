@@ -9,7 +9,7 @@ header {
 }
 
 nav {
-  background-color: yellow;
+  background-color: blue;
   padding: 10px;
 }
 
@@ -39,3 +39,4 @@ h1 {
 p {
   line-height: 1.6;
 }
+
