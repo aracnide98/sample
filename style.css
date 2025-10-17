@@ -1,6 +1,4 @@
-/* === Sara's Bucket List – Style Sheet (Assessment Version) === */
 
-/* --- Body --- */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -10,7 +8,7 @@ body {
   color: #333;
 }
 
-/* --- Skip Link for Accessibility --- */
+
 .skip-link {
   position: absolute;
   top: -40px;
@@ -25,15 +23,12 @@ body {
   top: 0;
 }
 
-/* --- Header & Footer --- */
 header, footer {
   background: #f0f0f0;
   padding: 1rem;
   text-align: center;
 }
 
-/* --- Navigation Bar --- */
-/* Use inline-block and 80% width as per assessment */
 nav {
   display: inline-block;
   width: 80%;
@@ -49,7 +44,6 @@ nav ul {
   gap: 1rem;
 }
 
-/* Style nav links */
 nav a {
   text-decoration: none;
   color: #0077cc;
@@ -65,7 +59,6 @@ nav img {
   border-radius: 5px;
 }
 
-/* --- Main Content --- */
 main {
   max-width: 900px;
   margin: 2rem auto;
@@ -79,7 +72,6 @@ ul, ol {
   margin: 1rem auto;
 }
 
-/* --- Images --- */
 img {
   border-radius: 8px;
   margin: 0.5rem;
@@ -93,7 +85,6 @@ img:hover {
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
 
-/* --- Grid Class --- */
 .grid {
   display: grid;
   grid-template-columns: 40% 40%;
@@ -102,25 +93,21 @@ img:hover {
   row-gap: 20px;
 }
 
-/* Only images inside .grid */
 .grid img {
   width: 100%;
 }
 
-/* --- Flex Class --- */
 .flex {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
-/* --- Footer text --- */
 footer p {
   font-size: 0.9rem;
   color: #666;
 }
 
-/* --- Responsive layout --- */
 @media (max-width: 600px) {
   nav ul {
     flex-direction: column;
@@ -131,3 +118,4 @@ footer p {
     height: auto;
   }
 }
+
